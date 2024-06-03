@@ -7,8 +7,14 @@ pip install -r requirements.txt
 ```
 ### Running the Application:-
 1. Open 3 terminal windows and change directory to this project folder.
-2. To start the server with default settings, run the following command 'python3 echo.py server'
-3. In second and third terminal start client using 'python3 echo.py client'
+2. To start the server with default settings, run the following command run python3 echo.py server.
+```sh
+python3 echo.py server
+```
+3. In second and third terminal start client using run python3 echo.py client
+```sh
+python3 echo.py client
+```
 4. In second and third window type random username and random password. Password checking is not enabled so any random text password will work.
 5. In Second and Third window, Online participants list will be displayed.
 6.  Select Participant by typing given username in both the windows.
@@ -19,8 +25,7 @@ pip install -r requirements.txt
 1. Implementation Robustness: Implemented robust error handling and edge case management.
 2. Concurrent Server: Utilized concurrent handling using asyncio for improved scalability and performance.
 3. Protocol Design Updates: Updated the protocol design based on practical implementation experience, ensuring compatibility and reliability.
-4. I needed to update some of the PDUs in the original design. Updated original design document is also attached in folder "design".
-5. Cloud-Based Git Repository: Managed the project using a cloud-based Git repository, enabling version control and collaboration. 
+4. Cloud-Based Git Repository: Managed the project using a cloud-based Git repository, enabling version control and collaboration. 
 
 ### Demo Screenshots
 1. Running server and client code
@@ -28,6 +33,7 @@ pip install -r requirements.txt
 
 2. Asking User to enter the username and password in client terminals.
 ![Demo 2](./Screenshots/2.png)
+
 ![Demo 2](./Screenshots/3.png)
 
 3. Client displaying online participants list along with the welcome message.
@@ -38,6 +44,7 @@ pip install -r requirements.txt
 
 5. Message being sent and received within the clients.
 ![Demo 2](./Screenshots/6.png)
+
 ![Demo 2](./Screenshots/7.png)
 
 6. Client type back to end the chat with the current client.
